@@ -1,0 +1,14 @@
+{
+  "rust-analyzer.cargo.runBuildScripts": true,
+  "rust-analyzer.cargo.allFeatures": true,
+  "rust-analyzer.procMacro.enable": true,
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "[rust]": {
+    "editor.formatOnSave": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/target/*/**": true
+  }
+}
